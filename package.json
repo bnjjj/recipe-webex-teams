@@ -1,0 +1,14 @@
+{
+  "id": "webex-teams",
+  "name": "Webex Teams",
+  "version": "1.0.0",
+  "description": "Cisco webex teams",
+  "main": "index.js",
+  "author": "Benjamin Coenen <benjamin.coenen@hotmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/bnjjj/recipe-webex-teams",
+  "config": {
+    "serviceURL": "https://teams.webex.com",
+    "hasNotificationSound": true
+  }
+}
