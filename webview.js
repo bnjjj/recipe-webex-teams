@@ -1,6 +1,6 @@
 module.exports = (Franz) => {
   const getMessages = function getMessages() {
-    let span = document.querySelectorAll('#container > nav > ul > li:nth-child(1) > div > button > span > span');
+    let span = document.getElementsByClassName('navigation-list-item--badgeCount');
     if (!span || span.length === 0) {
       Franz.setBadge(0);
       return null;
